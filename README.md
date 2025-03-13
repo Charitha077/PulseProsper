@@ -1,2 +1,1 @@
-Project involving prediction of heart attacks- barebones as of now- will be updtaed with react and neural networks
-
+A heart health analysis system for employees. It predicts risk levels based on health details and provides personalized advice, including doctor recommendations, diet plans, and exercise routines.
