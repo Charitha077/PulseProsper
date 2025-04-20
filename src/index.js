@@ -339,7 +339,8 @@ app.post('/formsubmitted', async (req, res) => {
         console.log(userDetailsforstorage);
 
         const formDataString = Object.values(userDetails).join(' ');
-        const executeCommand = `cd "C:\\Users\\CHARITHA BODIGE\\Desktop\\ML" && python ${pythonScriptPath} ${formDataString}`;
+        // const executeCommand = `cd "C:\\Users\\CHARITHA BODIGE\\Desktop\\ML" && python ${pythonScriptPath} ${formDataString}`;
+        const executeCommand = `cd "ML" && python ${pythonScriptPath} ${formDataString}`;
 
         const date = new Date();
         const newFormEntry = {
